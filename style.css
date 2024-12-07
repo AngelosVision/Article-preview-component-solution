@@ -106,6 +106,7 @@ body {
   cursor: pointer;
   border-radius: 50%;
   transition: background-color 0.3s, color 0.3s;
+  z-index: 10;
 }
 
 .profile-btn svg {
@@ -214,6 +215,19 @@ body {
     height: 80px;
     width: 100%;
     transition: all 0.5s;
+    justify-content: start;
+    align-items: center;
+  }
+
+    .message-link img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .message-box span {
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: var(--Desaturated-Dark-Blue);
   }
 
   .triangle {
